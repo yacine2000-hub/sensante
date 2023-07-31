@@ -130,7 +130,7 @@ class _RendezvousState extends State<Rendezvous> {
               widgetTexField(
                 context,
                 "Veuiller Choisir un service",
-                Icons.person_outline,
+                Icons.sell_rounded,
               ),
               const SizedBox(
                 height: 20,

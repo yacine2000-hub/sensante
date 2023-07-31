@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:sensant/connexion.dart';
+import 'package:sensant/historiquerv.dart';
+import 'package:sensant/nouscontacter.dart';
 Widget drawer(BuildContext context) {
   return Drawer(
     elevation: 16.0,
@@ -55,8 +57,8 @@ Widget drawer(BuildContext context) {
             color: Color(0xff008E8E)
           ),
           InkWell(
-            /* onTap: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => PrendrePhoto())),*/
+             onTap: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => ContactUsPage())),
             child: Container(
               margin: EdgeInsets.only(left: 15, right: 5, top: 25.h),
               child: Row(
@@ -81,8 +83,8 @@ Widget drawer(BuildContext context) {
               color: Color(0xff008E8E)
           ),
           InkWell(
-            /* onTap: () => Navigator.push(context,
-                MaterialPageRoute(builder: (context) => PrendrePhoto())),*/
+             onTap: () => Navigator.push(context,
+                MaterialPageRoute(builder: (context) => Historiquerv())),
             child: Container(
               margin: EdgeInsets.only(left: 15, right: 5, top: 25.h),
               child: Row(
